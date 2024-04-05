@@ -1,4 +1,4 @@
-**Assignment Title:** Implement an Email Notification System using the Observer Design Pattern.
+# Implement an Email Notification System using the Observer Design Pattern
 
 **Background:**
 An online retail store wants to implement a system to send email notifications to users when there are updates to their order status. Different types of emails (e.g., Order Confirmation, Shipment Update, Delivery Confirmation) need to be sent based on the specific status updates of an order.
