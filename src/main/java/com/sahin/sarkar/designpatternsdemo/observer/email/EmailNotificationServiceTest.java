@@ -1,4 +1,4 @@
-package com.sahin.sarkar.designpatternsdemo.observer;
+package com.sahin.sarkar.designpatternsdemo.observer.email;
 
 import com.sahin.sarkar.designpatternsdemo.observer.email.publisher.Order;
 import com.sahin.sarkar.designpatternsdemo.observer.email.publisher.OrderPublisher;
@@ -8,7 +8,7 @@ import com.sahin.sarkar.designpatternsdemo.observer.email.subscriber.EmailNotifi
 import com.sahin.sarkar.designpatternsdemo.observer.email.subscriber.OrderConfirmationEmailService;
 import com.sahin.sarkar.designpatternsdemo.observer.email.subscriber.ShipmentUpdateEmailService;
 
-public class ObserverPatternTest {
+public class EmailNotificationServiceTest {
 
 	public static void main(String[] args) {
 		EmailNotificationService orderConfirmedService = new OrderConfirmationEmailService((int) (Math.random() * 1000));
