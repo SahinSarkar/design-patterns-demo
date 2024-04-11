@@ -4,4 +4,4 @@
  * @Author: Sahin Sarkar
  * @since 05-04-2024
  */
-package com.sahin.sarkar.designpatternsdemo.observer.email;
+package com.sahin.sarkar.designpatternsdemo.decorator.product.customization;
