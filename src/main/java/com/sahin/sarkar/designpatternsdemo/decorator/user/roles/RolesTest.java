@@ -62,6 +62,8 @@ public class RolesTest {
 		printRolesForUser(moderator);
 		printRolesForUser(member);
 		printRolesForUser(guest);
+
+		// TODO: add test to determine for a user the types it is playing the roles of
 	}
 
 	private static void printRolesForUser(User user) {
